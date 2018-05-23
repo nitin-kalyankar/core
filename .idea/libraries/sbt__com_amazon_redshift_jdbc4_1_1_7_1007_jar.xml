@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="sbt: com.amazon.redshift:jdbc4:1.1.7.1007:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/com.amazon.redshift/jdbc4/jars/jdbc4-1.1.7.1007.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
