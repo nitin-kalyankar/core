@@ -1,0 +1,18 @@
+language: scala
+
+scala:
+  - 2.11.8
+
+script:
+  - sbt clean coverage test coverageReport
+
+
+before_install:
+  - gem update --system
+  - eval "$(curl -Ss https://raw.githubusercontent.com/neovim/bot-ci/master/scripts/travis-setup.sh) nightly-x64"
+  - bash -c "yes | gem uninstall -i /home/travis/.rvm/gems/ruby-2.5.0@global rake" || true
+  - gem update bundler
+  - bundle --version
+
+env: REPORT_COVERAGE=1 NVIM_RUBY_LOG_LEVEL=DEBUG NVIM_RUBY_LOG_FILE=ci.log
+script: bundle exec rake --trace
