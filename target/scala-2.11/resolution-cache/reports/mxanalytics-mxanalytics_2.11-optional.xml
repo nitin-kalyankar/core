@@ -6,8 +6,8 @@
 		module="mxanalytics_2.11"
 		revision="0.1"
 		conf="optional"
-		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool, scoveragePlugin"
-		date="20180529222558"/>
+		confs="compile, runtime, test, provided, optional, universal, universal-docs, universal-src, windows, docker, linux, rpm, debian, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool, scoveragePlugin"
+		date="20180531003253"/>
 	<dependencies>
 	</dependencies>
 </ivy-report>

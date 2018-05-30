@@ -6,13 +6,13 @@
 		module="mxanalytics_2.11"
 		revision="0.1"
 		conf="test-internal"
-		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool, scoveragePlugin"
-		date="20180529222558"/>
+		confs="compile, runtime, test, provided, optional, universal, universal-docs, universal-src, windows, docker, linux, rpm, debian, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool, scoveragePlugin"
+		date="20180531003253"/>
 	<dependencies>
 		<module organisation="org.apache.spark" name="spark-sql_2.11">
 			<revision name="2.1.0" status="release" pubdate="20161216124135" resolver="public" artresolver="public" homepage="http://spark.apache.org/" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="173">
 				<license name="Apache 2.0 License" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
-				<metadata-artifact status="successful" details="" size="9666" time="859" location="/Users/nitin.kalyankar/.ivy2/cache/org.apache.spark/spark-sql_2.11/ivy-2.1.0.xml" searched="true" original-local-location="/Users/nitin.kalyankar/.ivy2/cache/org.apache.spark/spark-sql_2.11/ivy-2.1.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/spark/spark-sql_2.11/2.1.0/spark-sql_2.11-2.1.0.pom"/>
+				<metadata-artifact status="successful" details="" size="9666" time="637" location="/Users/nitin.kalyankar/.ivy2/cache/org.apache.spark/spark-sql_2.11/ivy-2.1.0.xml" searched="true" original-local-location="/Users/nitin.kalyankar/.ivy2/cache/org.apache.spark/spark-sql_2.11/ivy-2.1.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/spark/spark-sql_2.11/2.1.0/spark-sql_2.11-2.1.0.pom"/>
 				<caller organisation="mxanalytics" name="mxanalytics_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="2.1.0" rev-constraint-default="2.1.0" rev-constraint-dynamic="2.1.0" callerrev="0.1"/>
 				<artifacts>
 					<artifact name="spark-sql_2.11" type="jar" ext="jar" status="no" details="" size="6670859" time="0" location="/Users/nitin.kalyankar/.ivy2/cache/org.apache.spark/spark-sql_2.11/jars/spark-sql_2.11-2.1.0.jar">
@@ -98,7 +98,7 @@
 		<module organisation="org.apache.spark" name="spark-catalyst_2.11">
 			<revision name="2.1.0" status="release" pubdate="20161216123900" resolver="public" artresolver="public" homepage="http://spark.apache.org/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="176">
 				<license name="Apache 2.0 License" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
-				<metadata-artifact status="successful" details="" size="7757" time="2001" location="/Users/nitin.kalyankar/.ivy2/cache/org.apache.spark/spark-catalyst_2.11/ivy-2.1.0.xml" searched="true" original-local-location="/Users/nitin.kalyankar/.ivy2/cache/org.apache.spark/spark-catalyst_2.11/ivy-2.1.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/spark/spark-catalyst_2.11/2.1.0/spark-catalyst_2.11-2.1.0.pom"/>
+				<metadata-artifact status="successful" details="" size="7757" time="680" location="/Users/nitin.kalyankar/.ivy2/cache/org.apache.spark/spark-catalyst_2.11/ivy-2.1.0.xml" searched="true" original-local-location="/Users/nitin.kalyankar/.ivy2/cache/org.apache.spark/spark-catalyst_2.11/ivy-2.1.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/spark/spark-catalyst_2.11/2.1.0/spark-catalyst_2.11-2.1.0.pom"/>
 				<caller organisation="org.apache.spark" name="spark-sql_2.11" conf="default, compile, runtime, master" rev="2.1.0" rev-constraint-default="2.1.0" rev-constraint-dynamic="2.1.0" callerrev="2.1.0"/>
 				<artifacts>
 					<artifact name="spark-catalyst_2.11" type="jar" ext="jar" status="no" details="" size="7382564" time="0" location="/Users/nitin.kalyankar/.ivy2/cache/org.apache.spark/spark-catalyst_2.11/jars/spark-catalyst_2.11-2.1.0.jar">
@@ -224,7 +224,7 @@
 		<module organisation="org.apache.spark" name="spark-sketch_2.11">
 			<revision name="2.1.0" status="release" pubdate="20161216123725" resolver="public" artresolver="public" homepage="http://spark.apache.org/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="175">
 				<license name="Apache 2.0 License" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
-				<metadata-artifact status="successful" details="" size="3118" time="1136" location="/Users/nitin.kalyankar/.ivy2/cache/org.apache.spark/spark-sketch_2.11/ivy-2.1.0.xml" searched="true" original-local-location="/Users/nitin.kalyankar/.ivy2/cache/org.apache.spark/spark-sketch_2.11/ivy-2.1.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/spark/spark-sketch_2.11/2.1.0/spark-sketch_2.11-2.1.0.pom"/>
+				<metadata-artifact status="successful" details="" size="3118" time="616" location="/Users/nitin.kalyankar/.ivy2/cache/org.apache.spark/spark-sketch_2.11/ivy-2.1.0.xml" searched="true" original-local-location="/Users/nitin.kalyankar/.ivy2/cache/org.apache.spark/spark-sketch_2.11/ivy-2.1.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/spark/spark-sketch_2.11/2.1.0/spark-sketch_2.11-2.1.0.pom"/>
 				<caller organisation="org.apache.spark" name="spark-sql_2.11" conf="default, compile, runtime, master" rev="2.1.0" rev-constraint-default="2.1.0" rev-constraint-dynamic="2.1.0" callerrev="2.1.0"/>
 				<artifacts>
 					<artifact name="spark-sketch_2.11" type="jar" ext="jar" status="no" details="" size="29535" time="0" location="/Users/nitin.kalyankar/.ivy2/cache/org.apache.spark/spark-sketch_2.11/jars/spark-sketch_2.11-2.1.0.jar">
@@ -260,7 +260,7 @@
 		<module organisation="org.apache.spark" name="spark-core_2.11">
 			<revision name="2.1.0" status="release" pubdate="20161216123538" resolver="public" artresolver="public" homepage="http://spark.apache.org/" downloaded="true" searched="true" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="72">
 				<license name="Apache 2.0 License" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
-				<metadata-artifact status="successful" details="" size="20892" time="2081" location="/Users/nitin.kalyankar/.ivy2/cache/org.apache.spark/spark-core_2.11/ivy-2.1.0.xml" searched="true" original-local-location="/Users/nitin.kalyankar/.ivy2/cache/org.apache.spark/spark-core_2.11/ivy-2.1.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/spark/spark-core_2.11/2.1.0/spark-core_2.11-2.1.0.pom"/>
+				<metadata-artifact status="successful" details="" size="20892" time="791" location="/Users/nitin.kalyankar/.ivy2/cache/org.apache.spark/spark-core_2.11/ivy-2.1.0.xml" searched="true" original-local-location="/Users/nitin.kalyankar/.ivy2/cache/org.apache.spark/spark-core_2.11/ivy-2.1.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/spark/spark-core_2.11/2.1.0/spark-core_2.11-2.1.0.pom"/>
 				<caller organisation="mxanalytics" name="mxanalytics_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="2.1.0" rev-constraint-default="2.1.0" rev-constraint-dynamic="2.1.0" callerrev="0.1"/>
 				<caller organisation="org.apache.spark" name="spark-sql_2.11" conf="default, compile, runtime, master" rev="2.1.0" rev-constraint-default="2.1.0" rev-constraint-dynamic="2.1.0" callerrev="2.1.0"/>
 				<caller organisation="org.apache.spark" name="spark-catalyst_2.11" conf="compile, runtime" rev="2.1.0" rev-constraint-default="2.1.0" rev-constraint-dynamic="2.1.0" callerrev="2.1.0"/>
@@ -480,9 +480,9 @@
 					</artifact>
 				</artifacts>
 			</revision>
-			<revision name="2.19" status="release" pubdate="20150629163505" resolver="public" artresolver="public" evicted="latest-revision" evicted-reason="" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+			<revision name="2.19" status="release" pubdate="20150629163505" resolver="sbt-chain" artresolver="sbt-chain" evicted="latest-revision" evicted-reason="" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
 				<license name="CDDL+GPL License" url="http://glassfish.java.net/public/CDDL+GPL_1_1.html"/>
-				<metadata-artifact status="successful" details="" size="6223" time="733" location="/Users/nitin.kalyankar/.ivy2/cache/org.glassfish.jersey.core/jersey-client/ivy-2.19.xml" searched="true" original-local-location="/Users/nitin.kalyankar/.ivy2/cache/org.glassfish.jersey.core/jersey-client/ivy-2.19.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/glassfish/jersey/core/jersey-client/2.19/jersey-client-2.19.pom"/>
+				<metadata-artifact status="no" details="" size="33939" time="0" location="/Users/nitin.kalyankar/.ivy2/cache/org.glassfish.jersey.core/jersey-client/ivy-2.19.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/glassfish/jersey/core/jersey-client/2.19/jersey-client-2.19.pom"/>
 				<evicted-by rev="2.22.2"/>
 				<caller organisation="org.glassfish.jersey.connectors" name="jersey-apache-connector" conf="compile, runtime" rev="2.19" rev-constraint-default="2.19" rev-constraint-dynamic="2.19" callerrev="2.19"/>
 				<caller organisation="com.spotify" name="docker-client" conf="default, compile, runtime, master" rev="2.19" rev-constraint-default="2.19" rev-constraint-dynamic="2.19" callerrev="3.5.13"/>
@@ -509,9 +509,9 @@
 					</artifact>
 				</artifacts>
 			</revision>
-			<revision name="2.19" status="release" pubdate="20150629163327" resolver="public" artresolver="public" evicted="latest-revision" evicted-reason="" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+			<revision name="2.19" status="release" pubdate="20150629163327" resolver="sbt-chain" artresolver="sbt-chain" evicted="latest-revision" evicted-reason="" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
 				<license name="CDDL+GPL License" url="http://glassfish.java.net/public/CDDL+GPL_1_1.html"/>
-				<metadata-artifact status="successful" details="" size="9643" time="2364" location="/Users/nitin.kalyankar/.ivy2/cache/org.glassfish.jersey.core/jersey-common/ivy-2.19.xml" searched="true" original-local-location="/Users/nitin.kalyankar/.ivy2/cache/org.glassfish.jersey.core/jersey-common/ivy-2.19.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/glassfish/jersey/core/jersey-common/2.19/jersey-common-2.19.pom"/>
+				<metadata-artifact status="no" details="" size="34638" time="0" location="/Users/nitin.kalyankar/.ivy2/cache/org.glassfish.jersey.core/jersey-common/ivy-2.19.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/glassfish/jersey/core/jersey-common/2.19/jersey-common-2.19.pom"/>
 				<evicted-by rev="2.22.2"/>
 				<caller organisation="org.glassfish.jersey.connectors" name="jersey-apache-connector" conf="compile, runtime" rev="2.19" rev-constraint-default="2.19" rev-constraint-dynamic="2.19" callerrev="2.19"/>
 				<caller organisation="org.glassfish.jersey.core" name="jersey-client" conf="compile, runtime" rev="2.19" rev-constraint-default="2.19" rev-constraint-dynamic="2.19" callerrev="2.19"/>
@@ -536,9 +536,9 @@
 					</artifact>
 				</artifacts>
 			</revision>
-			<revision name="2.4.0-b25" status="release" pubdate="20150605192332" resolver="public" artresolver="public" evicted="transitive" evicted-reason="" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+			<revision name="2.4.0-b25" status="release" pubdate="20150605192332" resolver="sbt-chain" artresolver="sbt-chain" evicted="transitive" evicted-reason="" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
 				<license name="CDDL + GPLv2 with classpath exception" url="https://glassfish.java.net/nonav/public/CDDL+GPL_1_1.html"/>
-				<metadata-artifact status="successful" details="" size="5566" time="1358" location="/Users/nitin.kalyankar/.ivy2/cache/org.glassfish.hk2/hk2-locator/ivy-2.4.0-b25.xml" searched="true" original-local-location="/Users/nitin.kalyankar/.ivy2/cache/org.glassfish.hk2/hk2-locator/ivy-2.4.0-b25.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/glassfish/hk2/hk2-locator/2.4.0-b25/hk2-locator-2.4.0-b25.pom"/>
+				<metadata-artifact status="no" details="" size="25607" time="0" location="/Users/nitin.kalyankar/.ivy2/cache/org.glassfish.hk2/hk2-locator/ivy-2.4.0-b25.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/glassfish/hk2/hk2-locator/2.4.0-b25/hk2-locator-2.4.0-b25.pom"/>
 				<caller organisation="org.glassfish.jersey.core" name="jersey-client" conf="compile, runtime" rev="2.4.0-b25" rev-constraint-default="2.4.0-b25" rev-constraint-dynamic="2.4.0-b25" callerrev="2.19"/>
 				<caller organisation="org.glassfish.jersey.core" name="jersey-common" conf="compile, runtime" rev="2.4.0-b25" rev-constraint-default="2.4.0-b25" rev-constraint-dynamic="2.4.0-b25" callerrev="2.19"/>
 				<artifacts>
@@ -564,9 +564,9 @@
 					</artifact>
 				</artifacts>
 			</revision>
-			<revision name="2.4.0-b25" status="release" pubdate="20150605192228" resolver="public" artresolver="public" evicted="transitive" evicted-reason="" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+			<revision name="2.4.0-b25" status="release" pubdate="20150605192228" resolver="sbt-chain" artresolver="sbt-chain" evicted="transitive" evicted-reason="" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
 				<license name="CDDL + GPLv2 with classpath exception" url="https://glassfish.java.net/nonav/public/CDDL+GPL_1_1.html"/>
-				<metadata-artifact status="successful" details="" size="6494" time="713" location="/Users/nitin.kalyankar/.ivy2/cache/org.glassfish.hk2.external/javax.inject/ivy-2.4.0-b25.xml" searched="true" original-local-location="/Users/nitin.kalyankar/.ivy2/cache/org.glassfish.hk2.external/javax.inject/ivy-2.4.0-b25.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/glassfish/hk2/external/javax.inject/2.4.0-b25/javax.inject-2.4.0-b25.pom"/>
+				<metadata-artifact status="no" details="" size="26032" time="0" location="/Users/nitin.kalyankar/.ivy2/cache/org.glassfish.hk2.external/javax.inject/ivy-2.4.0-b25.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/glassfish/hk2/external/javax.inject/2.4.0-b25/javax.inject-2.4.0-b25.pom"/>
 				<caller organisation="org.glassfish.jersey.core" name="jersey-client" conf="compile, runtime" rev="2.4.0-b25" rev-constraint-default="2.4.0-b25" rev-constraint-dynamic="2.4.0-b25" callerrev="2.19"/>
 				<caller organisation="org.glassfish.hk2" name="hk2-locator" conf="compile, runtime" rev="2.4.0-b25" rev-constraint-default="2.4.0-b25" rev-constraint-dynamic="2.4.0-b25" callerrev="2.4.0-b25"/>
 				<caller organisation="org.glassfish.jersey.core" name="jersey-common" conf="compile, runtime" rev="2.4.0-b25" rev-constraint-default="2.4.0-b25" rev-constraint-dynamic="2.4.0-b25" callerrev="2.19"/>
@@ -592,9 +592,9 @@
 					</artifact>
 				</artifacts>
 			</revision>
-			<revision name="2.4.0-b25" status="release" pubdate="20150605192307" resolver="public" artresolver="public" evicted="transitive" evicted-reason="" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+			<revision name="2.4.0-b25" status="release" pubdate="20150605192307" resolver="sbt-chain" artresolver="sbt-chain" evicted="transitive" evicted-reason="" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
 				<license name="CDDL + GPLv2 with classpath exception" url="https://glassfish.java.net/nonav/public/CDDL+GPL_1_1.html"/>
-				<metadata-artifact status="successful" details="" size="4559" time="827" location="/Users/nitin.kalyankar/.ivy2/cache/org.glassfish.hk2/hk2-api/ivy-2.4.0-b25.xml" searched="true" original-local-location="/Users/nitin.kalyankar/.ivy2/cache/org.glassfish.hk2/hk2-api/ivy-2.4.0-b25.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/glassfish/hk2/hk2-api/2.4.0-b25/hk2-api-2.4.0-b25.pom"/>
+				<metadata-artifact status="no" details="" size="25305" time="0" location="/Users/nitin.kalyankar/.ivy2/cache/org.glassfish.hk2/hk2-api/ivy-2.4.0-b25.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/glassfish/hk2/hk2-api/2.4.0-b25/hk2-api-2.4.0-b25.pom"/>
 				<caller organisation="org.glassfish.jersey.core" name="jersey-client" conf="compile, runtime" rev="2.4.0-b25" rev-constraint-default="2.4.0-b25" rev-constraint-dynamic="2.4.0-b25" callerrev="2.19"/>
 				<caller organisation="org.glassfish.hk2" name="hk2-locator" conf="compile, runtime" rev="2.4.0-b25" rev-constraint-default="2.4.0-b25" rev-constraint-dynamic="2.4.0-b25" callerrev="2.4.0-b25"/>
 				<caller organisation="org.glassfish.jersey.core" name="jersey-common" conf="compile, runtime" rev="2.4.0-b25" rev-constraint-default="2.4.0-b25" rev-constraint-dynamic="2.4.0-b25" callerrev="2.19"/>
@@ -616,9 +616,9 @@
 					</artifact>
 				</artifacts>
 			</revision>
-			<revision name="2.4.0-b25" status="release" pubdate="20150605192235" resolver="public" artresolver="public" evicted="transitive" evicted-reason="" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+			<revision name="2.4.0-b25" status="release" pubdate="20150605192235" resolver="sbt-chain" artresolver="sbt-chain" evicted="transitive" evicted-reason="" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
 				<license name="CDDL + GPLv2 with classpath exception" url="https://glassfish.java.net/nonav/public/CDDL+GPL_1_1.html"/>
-				<metadata-artifact status="successful" details="" size="6770" time="685" location="/Users/nitin.kalyankar/.ivy2/cache/org.glassfish.hk2.external/aopalliance-repackaged/ivy-2.4.0-b25.xml" searched="true" original-local-location="/Users/nitin.kalyankar/.ivy2/cache/org.glassfish.hk2.external/aopalliance-repackaged/ivy-2.4.0-b25.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/glassfish/hk2/external/aopalliance-repackaged/2.4.0-b25/aopalliance-repackaged-2.4.0-b25.pom"/>
+				<metadata-artifact status="no" details="" size="25953" time="0" location="/Users/nitin.kalyankar/.ivy2/cache/org.glassfish.hk2.external/aopalliance-repackaged/ivy-2.4.0-b25.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/glassfish/hk2/external/aopalliance-repackaged/2.4.0-b25/aopalliance-repackaged-2.4.0-b25.pom"/>
 				<caller organisation="org.glassfish.hk2" name="hk2-api" conf="compile, runtime" rev="2.4.0-b25" rev-constraint-default="2.4.0-b25" rev-constraint-dynamic="2.4.0-b25" callerrev="2.4.0-b25"/>
 				<caller organisation="org.glassfish.hk2" name="hk2-locator" conf="compile, runtime" rev="2.4.0-b25" rev-constraint-default="2.4.0-b25" rev-constraint-dynamic="2.4.0-b25" callerrev="2.4.0-b25"/>
 				<artifacts>
@@ -639,9 +639,9 @@
 					</artifact>
 				</artifacts>
 			</revision>
-			<revision name="2.4.0-b25" status="release" pubdate="20150605192254" resolver="public" artresolver="public" evicted="transitive" evicted-reason="" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+			<revision name="2.4.0-b25" status="release" pubdate="20150605192254" resolver="sbt-chain" artresolver="sbt-chain" evicted="transitive" evicted-reason="" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
 				<license name="CDDL + GPLv2 with classpath exception" url="https://glassfish.java.net/nonav/public/CDDL+GPL_1_1.html"/>
-				<metadata-artifact status="successful" details="" size="5149" time="717" location="/Users/nitin.kalyankar/.ivy2/cache/org.glassfish.hk2/hk2-utils/ivy-2.4.0-b25.xml" searched="true" original-local-location="/Users/nitin.kalyankar/.ivy2/cache/org.glassfish.hk2/hk2-utils/ivy-2.4.0-b25.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/glassfish/hk2/hk2-utils/2.4.0-b25/hk2-utils-2.4.0-b25.pom"/>
+				<metadata-artifact status="no" details="" size="24902" time="0" location="/Users/nitin.kalyankar/.ivy2/cache/org.glassfish.hk2/hk2-utils/ivy-2.4.0-b25.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/glassfish/hk2/hk2-utils/2.4.0-b25/hk2-utils-2.4.0-b25.pom"/>
 				<caller organisation="org.glassfish.hk2" name="hk2-api" conf="compile, runtime" rev="2.4.0-b25" rev-constraint-default="2.4.0-b25" rev-constraint-dynamic="2.4.0-b25" callerrev="2.4.0-b25"/>
 				<caller organisation="org.glassfish.hk2" name="hk2-locator" conf="compile, runtime" rev="2.4.0-b25" rev-constraint-default="2.4.0-b25" rev-constraint-dynamic="2.4.0-b25" callerrev="2.4.0-b25"/>
 				<artifacts>
@@ -660,9 +660,9 @@
 					</artifact>
 				</artifacts>
 			</revision>
-			<revision name="2.19" status="release" pubdate="20150629163151" resolver="public" artresolver="public" evicted="transitive" evicted-reason="" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+			<revision name="2.19" status="release" pubdate="20150629163151" resolver="sbt-chain" artresolver="sbt-chain" evicted="transitive" evicted-reason="" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
 				<license name="CDDL+GPL License" url="http://glassfish.java.net/public/CDDL+GPL_1_1.html"/>
-				<metadata-artifact status="successful" details="" size="12636" time="1753" location="/Users/nitin.kalyankar/.ivy2/cache/org.glassfish.jersey.bundles.repackaged/jersey-guava/ivy-2.19.xml" searched="true" original-local-location="/Users/nitin.kalyankar/.ivy2/cache/org.glassfish.jersey.bundles.repackaged/jersey-guava/ivy-2.19.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/glassfish/jersey/bundles/repackaged/jersey-guava/2.19/jersey-guava-2.19.pom"/>
+				<metadata-artifact status="no" details="" size="33835" time="0" location="/Users/nitin.kalyankar/.ivy2/cache/org.glassfish.jersey.bundles.repackaged/jersey-guava/ivy-2.19.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/glassfish/jersey/bundles/repackaged/jersey-guava/2.19/jersey-guava-2.19.pom"/>
 				<caller organisation="org.glassfish.jersey.core" name="jersey-common" conf="compile, runtime" rev="2.19" rev-constraint-default="2.19" rev-constraint-dynamic="2.19" callerrev="2.19"/>
 				<artifacts>
 				</artifacts>
@@ -902,7 +902,7 @@
 		<module organisation="org.apache.spark" name="spark-unsafe_2.11">
 			<revision name="2.1.0" status="release" pubdate="20161216123441" resolver="public" artresolver="public" homepage="http://spark.apache.org/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="128">
 				<license name="Apache 2.0 License" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
-				<metadata-artifact status="successful" details="" size="4618" time="690" location="/Users/nitin.kalyankar/.ivy2/cache/org.apache.spark/spark-unsafe_2.11/ivy-2.1.0.xml" searched="true" original-local-location="/Users/nitin.kalyankar/.ivy2/cache/org.apache.spark/spark-unsafe_2.11/ivy-2.1.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/spark/spark-unsafe_2.11/2.1.0/spark-unsafe_2.11-2.1.0.pom"/>
+				<metadata-artifact status="successful" details="" size="4618" time="616" location="/Users/nitin.kalyankar/.ivy2/cache/org.apache.spark/spark-unsafe_2.11/ivy-2.1.0.xml" searched="true" original-local-location="/Users/nitin.kalyankar/.ivy2/cache/org.apache.spark/spark-unsafe_2.11/ivy-2.1.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/spark/spark-unsafe_2.11/2.1.0/spark-unsafe_2.11-2.1.0.pom"/>
 				<caller organisation="org.apache.spark" name="spark-core_2.11" conf="default, compile, runtime, master" rev="2.1.0" rev-constraint-default="2.1.0" rev-constraint-dynamic="2.1.0" callerrev="2.1.0"/>
 				<caller organisation="org.apache.spark" name="spark-catalyst_2.11" conf="compile, runtime" rev="2.1.0" rev-constraint-default="2.1.0" rev-constraint-dynamic="2.1.0" callerrev="2.1.0"/>
 				<artifacts>
@@ -915,7 +915,7 @@
 		<module organisation="org.apache.spark" name="spark-network-shuffle_2.11">
 			<revision name="2.1.0" status="release" pubdate="20161216124127" resolver="public" artresolver="public" homepage="http://spark.apache.org/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="126">
 				<license name="Apache 2.0 License" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
-				<metadata-artifact status="successful" details="" size="4148" time="662" location="/Users/nitin.kalyankar/.ivy2/cache/org.apache.spark/spark-network-shuffle_2.11/ivy-2.1.0.xml" searched="true" original-local-location="/Users/nitin.kalyankar/.ivy2/cache/org.apache.spark/spark-network-shuffle_2.11/ivy-2.1.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/spark/spark-network-shuffle_2.11/2.1.0/spark-network-shuffle_2.11-2.1.0.pom"/>
+				<metadata-artifact status="successful" details="" size="4148" time="619" location="/Users/nitin.kalyankar/.ivy2/cache/org.apache.spark/spark-network-shuffle_2.11/ivy-2.1.0.xml" searched="true" original-local-location="/Users/nitin.kalyankar/.ivy2/cache/org.apache.spark/spark-network-shuffle_2.11/ivy-2.1.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/spark/spark-network-shuffle_2.11/2.1.0/spark-network-shuffle_2.11-2.1.0.pom"/>
 				<caller organisation="org.apache.spark" name="spark-core_2.11" conf="default, compile, runtime, master" rev="2.1.0" rev-constraint-default="2.1.0" rev-constraint-dynamic="2.1.0" callerrev="2.1.0"/>
 				<artifacts>
 					<artifact name="spark-network-shuffle_2.11" type="jar" ext="jar" status="no" details="" size="61567" time="0" location="/Users/nitin.kalyankar/.ivy2/cache/org.apache.spark/spark-network-shuffle_2.11/jars/spark-network-shuffle_2.11-2.1.0.jar">
@@ -943,7 +943,7 @@
 		<module organisation="org.apache.spark" name="spark-network-common_2.11">
 			<revision name="2.1.0" status="release" pubdate="20161216123508" resolver="public" artresolver="public" homepage="http://spark.apache.org/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="118">
 				<license name="Apache 2.0 License" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
-				<metadata-artifact status="successful" details="" size="5046" time="713" location="/Users/nitin.kalyankar/.ivy2/cache/org.apache.spark/spark-network-common_2.11/ivy-2.1.0.xml" searched="true" original-local-location="/Users/nitin.kalyankar/.ivy2/cache/org.apache.spark/spark-network-common_2.11/ivy-2.1.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/spark/spark-network-common_2.11/2.1.0/spark-network-common_2.11-2.1.0.pom"/>
+				<metadata-artifact status="successful" details="" size="5046" time="633" location="/Users/nitin.kalyankar/.ivy2/cache/org.apache.spark/spark-network-common_2.11/ivy-2.1.0.xml" searched="true" original-local-location="/Users/nitin.kalyankar/.ivy2/cache/org.apache.spark/spark-network-common_2.11/ivy-2.1.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/spark/spark-network-common_2.11/2.1.0/spark-network-common_2.11-2.1.0.pom"/>
 				<caller organisation="org.apache.spark" name="spark-core_2.11" conf="default, compile, runtime, master" rev="2.1.0" rev-constraint-default="2.1.0" rev-constraint-dynamic="2.1.0" callerrev="2.1.0"/>
 				<caller organisation="org.apache.spark" name="spark-network-shuffle_2.11" conf="compile, runtime" rev="2.1.0" rev-constraint-default="2.1.0" rev-constraint-dynamic="2.1.0" callerrev="2.1.0"/>
 				<artifacts>
@@ -971,9 +971,9 @@
 					</artifact>
 				</artifacts>
 			</revision>
-			<revision name="2.6.0" status="release" pubdate="20150717053350" resolver="public" artresolver="public" evicted="latest-revision" evicted-reason="" homepage="http://github.com/FasterXML/jackson" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+			<revision name="2.6.0" status="release" pubdate="20150717053350" resolver="sbt-chain" artresolver="sbt-chain" evicted="latest-revision" evicted-reason="" homepage="http://github.com/FasterXML/jackson" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="successful" details="" size="1219" time="1079" location="/Users/nitin.kalyankar/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/ivy-2.6.0.xml" searched="true" original-local-location="/Users/nitin.kalyankar/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/ivy-2.6.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.6.0/jackson-annotations-2.6.0.pom"/>
+				<metadata-artifact status="no" details="" size="6495" time="0" location="/Users/nitin.kalyankar/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/ivy-2.6.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.6.0/jackson-annotations-2.6.0.pom"/>
 				<evicted-by rev="2.6.5"/>
 				<caller organisation="org.apache.spark" name="spark-network-common_2.11" conf="compile, runtime" rev="2.6.5" rev-constraint-default="2.6.5" rev-constraint-dynamic="2.6.5" callerrev="2.1.0"/>
 				<caller organisation="com.fasterxml.jackson.core" name="jackson-databind" conf="compile, runtime" rev="2.6.0" rev-constraint-default="2.6.0" rev-constraint-dynamic="2.6.0" callerrev="2.6.0"/>
@@ -1037,9 +1037,9 @@
 					</artifact>
 				</artifacts>
 			</revision>
-			<revision name="2.6.0" status="release" pubdate="20150720000944" resolver="public" artresolver="public" evicted="latest-revision" evicted-reason="" homepage="http://github.com/FasterXML/jackson" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+			<revision name="2.6.0" status="release" pubdate="20150720000944" resolver="sbt-chain" artresolver="sbt-chain" evicted="latest-revision" evicted-reason="" homepage="http://github.com/FasterXML/jackson" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="successful" details="" size="5813" time="814" location="/Users/nitin.kalyankar/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/ivy-2.6.0.xml" searched="true" original-local-location="/Users/nitin.kalyankar/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/ivy-2.6.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.6.0/jackson-databind-2.6.0.pom"/>
+				<metadata-artifact status="no" details="" size="8692" time="0" location="/Users/nitin.kalyankar/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/ivy-2.6.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.6.0/jackson-databind-2.6.0.pom"/>
 				<evicted-by rev="2.6.5"/>
 				<caller organisation="com.amazonaws" name="aws-java-sdk-core" conf="compile, runtime" rev="2.5.3" rev-constraint-default="2.5.3" rev-constraint-dynamic="2.5.3" callerrev="1.10.77"/>
 				<caller organisation="com.fasterxml.jackson.jaxrs" name="jackson-jaxrs-base" conf="compile, runtime" rev="2.6.0" rev-constraint-default="2.6.0" rev-constraint-dynamic="2.6.0" callerrev="2.6.0"/>
@@ -1108,9 +1108,9 @@
 					</artifact>
 				</artifacts>
 			</revision>
-			<revision name="2.6.0" status="release" pubdate="20150717054400" resolver="public" artresolver="public" evicted="latest-revision" evicted-reason="" homepage="https://github.com/FasterXML/jackson-core" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+			<revision name="2.6.0" status="release" pubdate="20150717054400" resolver="sbt-chain" artresolver="sbt-chain" evicted="latest-revision" evicted-reason="" homepage="https://github.com/FasterXML/jackson-core" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="successful" details="" size="4832" time="647" location="/Users/nitin.kalyankar/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/ivy-2.6.0.xml" searched="true" original-local-location="/Users/nitin.kalyankar/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/ivy-2.6.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.6.0/jackson-core-2.6.0.pom"/>
+				<metadata-artifact status="no" details="" size="6948" time="0" location="/Users/nitin.kalyankar/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/ivy-2.6.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.6.0/jackson-core-2.6.0.pom"/>
 				<evicted-by rev="2.6.5"/>
 				<caller organisation="com.fasterxml.jackson.jaxrs" name="jackson-jaxrs-base" conf="compile, runtime" rev="2.6.0" rev-constraint-default="2.6.0" rev-constraint-dynamic="2.6.0" callerrev="2.6.0"/>
 				<caller organisation="com.fasterxml.jackson.core" name="jackson-databind" conf="compile, runtime" rev="2.5.3" rev-constraint-default="2.5.3" rev-constraint-dynamic="2.5.3" callerrev="2.5.3"/>
@@ -1190,7 +1190,7 @@
 		<module organisation="org.apache.spark" name="spark-launcher_2.11">
 			<revision name="2.1.0" status="release" pubdate="20161216123916" resolver="public" artresolver="public" homepage="http://spark.apache.org/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="115">
 				<license name="Apache 2.0 License" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
-				<metadata-artifact status="successful" details="" size="6351" time="662" location="/Users/nitin.kalyankar/.ivy2/cache/org.apache.spark/spark-launcher_2.11/ivy-2.1.0.xml" searched="true" original-local-location="/Users/nitin.kalyankar/.ivy2/cache/org.apache.spark/spark-launcher_2.11/ivy-2.1.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/spark/spark-launcher_2.11/2.1.0/spark-launcher_2.11-2.1.0.pom"/>
+				<metadata-artifact status="successful" details="" size="6351" time="627" location="/Users/nitin.kalyankar/.ivy2/cache/org.apache.spark/spark-launcher_2.11/ivy-2.1.0.xml" searched="true" original-local-location="/Users/nitin.kalyankar/.ivy2/cache/org.apache.spark/spark-launcher_2.11/ivy-2.1.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/spark/spark-launcher_2.11/2.1.0/spark-launcher_2.11-2.1.0.pom"/>
 				<caller organisation="org.apache.spark" name="spark-core_2.11" conf="default, compile, runtime, master" rev="2.1.0" rev-constraint-default="2.1.0" rev-constraint-dynamic="2.1.0" callerrev="2.1.0"/>
 				<artifacts>
 					<artifact name="spark-launcher_2.11" type="jar" ext="jar" status="no" details="" size="66610" time="0" location="/Users/nitin.kalyankar/.ivy2/cache/org.apache.spark/spark-launcher_2.11/jars/spark-launcher_2.11-2.1.0.jar">
@@ -1202,7 +1202,7 @@
 		<module organisation="org.apache.spark" name="spark-tags_2.11">
 			<revision name="2.1.0" status="release" pubdate="20161216123603" resolver="public" artresolver="public" homepage="http://spark.apache.org/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="116">
 				<license name="Apache 2.0 License" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
-				<metadata-artifact status="successful" details="" size="1817" time="1418" location="/Users/nitin.kalyankar/.ivy2/cache/org.apache.spark/spark-tags_2.11/ivy-2.1.0.xml" searched="true" original-local-location="/Users/nitin.kalyankar/.ivy2/cache/org.apache.spark/spark-tags_2.11/ivy-2.1.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/spark/spark-tags_2.11/2.1.0/spark-tags_2.11-2.1.0.pom"/>
+				<metadata-artifact status="successful" details="" size="1817" time="619" location="/Users/nitin.kalyankar/.ivy2/cache/org.apache.spark/spark-tags_2.11/ivy-2.1.0.xml" searched="true" original-local-location="/Users/nitin.kalyankar/.ivy2/cache/org.apache.spark/spark-tags_2.11/ivy-2.1.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/spark/spark-tags_2.11/2.1.0/spark-tags_2.11-2.1.0.pom"/>
 				<caller organisation="org.apache.spark" name="spark-network-common_2.11" conf="compile, runtime" rev="2.1.0" rev-constraint-default="2.1.0" rev-constraint-dynamic="2.1.0" callerrev="2.1.0"/>
 				<caller organisation="org.apache.spark" name="spark-sketch_2.11" conf="compile, runtime" rev="2.1.0" rev-constraint-default="2.1.0" rev-constraint-dynamic="2.1.0" callerrev="2.1.0"/>
 				<caller organisation="org.apache.spark" name="spark-core_2.11" conf="default, compile, runtime, master" rev="2.1.0" rev-constraint-default="2.1.0" rev-constraint-dynamic="2.1.0" callerrev="2.1.0"/>
@@ -1361,9 +1361,9 @@
 					</artifact>
 				</artifacts>
 			</revision>
-			<revision name="1.7.12" status="release" pubdate="20150327022005" resolver="public" artresolver="public" evicted="latest-revision" evicted-reason="" homepage="http://www.slf4j.org" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master, default, default(compile)" position="-1">
+			<revision name="1.7.12" status="release" pubdate="20150327022005" resolver="sbt-chain" artresolver="sbt-chain" evicted="latest-revision" evicted-reason="" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master, default, default(compile)" position="-1">
 				<license name="MIT License" url="http://www.opensource.org/licenses/mit-license.php"/>
-				<metadata-artifact status="successful" details="" size="2661" time="638" location="/Users/nitin.kalyankar/.ivy2/cache/org.slf4j/slf4j-api/ivy-1.7.12.xml" searched="true" original-local-location="/Users/nitin.kalyankar/.ivy2/cache/org.slf4j/slf4j-api/ivy-1.7.12.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.12/slf4j-api-1.7.12.pom"/>
+				<metadata-artifact status="no" details="" size="4738" time="0" location="/Users/nitin.kalyankar/.ivy2/cache/org.slf4j/slf4j-api/ivy-1.7.12.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.12/slf4j-api-1.7.12.pom"/>
 				<evicted-by rev="1.7.16"/>
 				<caller organisation="mxanalytics" name="mxanalytics_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="1.7.5" rev-constraint-default="1.7.5" rev-constraint-dynamic="1.7.5" callerrev="0.1"/>
 				<caller organisation="com.databricks" name="spark-redshift_2.11" conf="default, compile, runtime, master" rev="1.7.5" rev-constraint-default="1.7.5" rev-constraint-dynamic="1.7.5" callerrev="3.0.0-preview1"/>
@@ -1485,12 +1485,12 @@
 			</revision>
 		</module>
 		<module organisation="com.spotify" name="docker-client">
-			<revision name="3.5.13" status="release" pubdate="20160302014642" resolver="public" artresolver="public" homepage="https://github.com/spotify/docker-client" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="35">
+			<revision name="3.5.13" status="release" pubdate="20160302014642" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/spotify/docker-client" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="35">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="successful" details="" size="12624" time="661" location="/Users/nitin.kalyankar/.ivy2/cache/com.spotify/docker-client/ivy-3.5.13.xml" searched="true" original-local-location="/Users/nitin.kalyankar/.ivy2/cache/com.spotify/docker-client/ivy-3.5.13.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/spotify/docker-client/3.5.13/docker-client-3.5.13.pom"/>
+				<metadata-artifact status="no" details="" size="6195" time="0" location="/Users/nitin.kalyankar/.ivy2/cache/com.spotify/docker-client/ivy-3.5.13.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/spotify/docker-client/3.5.13/docker-client-3.5.13.pom"/>
 				<caller organisation="mxanalytics" name="mxanalytics_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="3.5.13" rev-constraint-default="3.5.13" rev-constraint-dynamic="3.5.13" callerrev="0.1"/>
 				<artifacts>
-					<artifact name="docker-client" type="jar" ext="jar" status="successful" details="" size="176234" time="20117" location="/Users/nitin.kalyankar/.ivy2/cache/com.spotify/docker-client/jars/docker-client-3.5.13.jar">
+					<artifact name="docker-client" type="jar" ext="jar" status="no" details="" size="176234" time="0" location="/Users/nitin.kalyankar/.ivy2/cache/com.spotify/docker-client/jars/docker-client-3.5.13.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/spotify/docker-client/3.5.13/docker-client-3.5.13.jar"/>
 					</artifact>
 				</artifacts>
@@ -1808,36 +1808,36 @@
 			</revision>
 		</module>
 		<module organisation="org.glassfish.jersey.media" name="jersey-media-json-jackson">
-			<revision name="2.19" status="release" pubdate="20150629165326" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="49">
+			<revision name="2.19" status="release" pubdate="20150629165326" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="49">
 				<license name="CDDL+GPL License" url="http://glassfish.java.net/public/CDDL+GPL_1_1.html"/>
-				<metadata-artifact status="successful" details="" size="4778" time="826" location="/Users/nitin.kalyankar/.ivy2/cache/org.glassfish.jersey.media/jersey-media-json-jackson/ivy-2.19.xml" searched="true" original-local-location="/Users/nitin.kalyankar/.ivy2/cache/org.glassfish.jersey.media/jersey-media-json-jackson/ivy-2.19.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/glassfish/jersey/media/jersey-media-json-jackson/2.19/jersey-media-json-jackson-2.19.pom"/>
+				<metadata-artifact status="no" details="" size="33898" time="0" location="/Users/nitin.kalyankar/.ivy2/cache/org.glassfish.jersey.media/jersey-media-json-jackson/ivy-2.19.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/glassfish/jersey/media/jersey-media-json-jackson/2.19/jersey-media-json-jackson-2.19.pom"/>
 				<caller organisation="com.spotify" name="docker-client" conf="default, compile, runtime, master" rev="2.19" rev-constraint-default="2.19" rev-constraint-dynamic="2.19" callerrev="3.5.13"/>
 				<artifacts>
-					<artifact name="jersey-media-json-jackson" type="jar" ext="jar" status="successful" details="" size="21770" time="3674" location="/Users/nitin.kalyankar/.ivy2/cache/org.glassfish.jersey.media/jersey-media-json-jackson/jars/jersey-media-json-jackson-2.19.jar">
+					<artifact name="jersey-media-json-jackson" type="jar" ext="jar" status="no" details="" size="21770" time="0" location="/Users/nitin.kalyankar/.ivy2/cache/org.glassfish.jersey.media/jersey-media-json-jackson/jars/jersey-media-json-jackson-2.19.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/glassfish/jersey/media/jersey-media-json-jackson/2.19/jersey-media-json-jackson-2.19.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="org.glassfish.jersey.ext" name="jersey-entity-filtering">
-			<revision name="2.19" status="release" pubdate="20150629164930" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="50">
+			<revision name="2.19" status="release" pubdate="20150629164930" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="50">
 				<license name="CDDL+GPL License" url="http://glassfish.java.net/public/CDDL+GPL_1_1.html"/>
-				<metadata-artifact status="successful" details="" size="4564" time="1221" location="/Users/nitin.kalyankar/.ivy2/cache/org.glassfish.jersey.ext/jersey-entity-filtering/ivy-2.19.xml" searched="true" original-local-location="/Users/nitin.kalyankar/.ivy2/cache/org.glassfish.jersey.ext/jersey-entity-filtering/ivy-2.19.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/glassfish/jersey/ext/jersey-entity-filtering/2.19/jersey-entity-filtering-2.19.pom"/>
+				<metadata-artifact status="no" details="" size="33826" time="0" location="/Users/nitin.kalyankar/.ivy2/cache/org.glassfish.jersey.ext/jersey-entity-filtering/ivy-2.19.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/glassfish/jersey/ext/jersey-entity-filtering/2.19/jersey-entity-filtering-2.19.pom"/>
 				<caller organisation="org.glassfish.jersey.media" name="jersey-media-json-jackson" conf="compile, runtime" rev="2.19" rev-constraint-default="2.19" rev-constraint-dynamic="2.19" callerrev="2.19"/>
 				<artifacts>
-					<artifact name="jersey-entity-filtering" type="jar" ext="jar" status="successful" details="" size="69575" time="10490" location="/Users/nitin.kalyankar/.ivy2/cache/org.glassfish.jersey.ext/jersey-entity-filtering/jars/jersey-entity-filtering-2.19.jar">
+					<artifact name="jersey-entity-filtering" type="jar" ext="jar" status="no" details="" size="69575" time="0" location="/Users/nitin.kalyankar/.ivy2/cache/org.glassfish.jersey.ext/jersey-entity-filtering/jars/jersey-entity-filtering-2.19.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/glassfish/jersey/ext/jersey-entity-filtering/2.19/jersey-entity-filtering-2.19.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="org.glassfish.jersey.connectors" name="jersey-apache-connector">
-			<revision name="2.19" status="release" pubdate="20150629165106" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="45">
+			<revision name="2.19" status="release" pubdate="20150629165106" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="45">
 				<license name="CDDL+GPL License" url="http://glassfish.java.net/public/CDDL+GPL_1_1.html"/>
-				<metadata-artifact status="successful" details="" size="4278" time="859" location="/Users/nitin.kalyankar/.ivy2/cache/org.glassfish.jersey.connectors/jersey-apache-connector/ivy-2.19.xml" searched="true" original-local-location="/Users/nitin.kalyankar/.ivy2/cache/org.glassfish.jersey.connectors/jersey-apache-connector/ivy-2.19.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/glassfish/jersey/connectors/jersey-apache-connector/2.19/jersey-apache-connector-2.19.pom"/>
+				<metadata-artifact status="no" details="" size="34247" time="0" location="/Users/nitin.kalyankar/.ivy2/cache/org.glassfish.jersey.connectors/jersey-apache-connector/ivy-2.19.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/glassfish/jersey/connectors/jersey-apache-connector/2.19/jersey-apache-connector-2.19.pom"/>
 				<caller organisation="com.spotify" name="docker-client" conf="default, compile, runtime, master" rev="2.19" rev-constraint-default="2.19" rev-constraint-dynamic="2.19" callerrev="3.5.13"/>
 				<artifacts>
-					<artifact name="jersey-apache-connector" type="jar" ext="jar" status="successful" details="" size="23304" time="3586" location="/Users/nitin.kalyankar/.ivy2/cache/org.glassfish.jersey.connectors/jersey-apache-connector/jars/jersey-apache-connector-2.19.jar">
+					<artifact name="jersey-apache-connector" type="jar" ext="jar" status="no" details="" size="23304" time="0" location="/Users/nitin.kalyankar/.ivy2/cache/org.glassfish.jersey.connectors/jersey-apache-connector/jars/jersey-apache-connector-2.19.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/glassfish/jersey/connectors/jersey-apache-connector/2.19/jersey-apache-connector-2.19.jar"/>
 					</artifact>
 				</artifacts>
@@ -1908,25 +1908,25 @@
 			</revision>
 		</module>
 		<module organisation="com.fasterxml.jackson.datatype" name="jackson-datatype-guava">
-			<revision name="2.6.0" status="release" pubdate="20150720094041" resolver="public" artresolver="public" homepage="https://github.com/FasterXML/jackson-datatype-guava" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="40">
+			<revision name="2.6.0" status="release" pubdate="20150720094041" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/FasterXML/jackson-datatype-guava" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="40">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="successful" details="" size="3966" time="1199" location="/Users/nitin.kalyankar/.ivy2/cache/com.fasterxml.jackson.datatype/jackson-datatype-guava/ivy-2.6.0.xml" searched="true" original-local-location="/Users/nitin.kalyankar/.ivy2/cache/com.fasterxml.jackson.datatype/jackson-datatype-guava/ivy-2.6.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-guava/2.6.0/jackson-datatype-guava-2.6.0.pom"/>
+				<metadata-artifact status="no" details="" size="8487" time="0" location="/Users/nitin.kalyankar/.ivy2/cache/com.fasterxml.jackson.datatype/jackson-datatype-guava/ivy-2.6.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-guava/2.6.0/jackson-datatype-guava-2.6.0.pom"/>
 				<caller organisation="com.spotify" name="docker-client" conf="default, compile, runtime, master" rev="2.6.0" rev-constraint-default="2.6.0" rev-constraint-dynamic="2.6.0" callerrev="3.5.13"/>
 				<artifacts>
-					<artifact name="jackson-datatype-guava" type="bundle" ext="jar" status="successful" details="" size="74545" time="11201" location="/Users/nitin.kalyankar/.ivy2/cache/com.fasterxml.jackson.datatype/jackson-datatype-guava/bundles/jackson-datatype-guava-2.6.0.jar">
+					<artifact name="jackson-datatype-guava" type="bundle" ext="jar" status="no" details="" size="74545" time="0" location="/Users/nitin.kalyankar/.ivy2/cache/com.fasterxml.jackson.datatype/jackson-datatype-guava/bundles/jackson-datatype-guava-2.6.0.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-guava/2.6.0/jackson-datatype-guava-2.6.0.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="com.fasterxml.jackson.jaxrs" name="jackson-jaxrs-json-provider">
-			<revision name="2.6.0" status="release" pubdate="20150720235925" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="37">
+			<revision name="2.6.0" status="release" pubdate="20150720235925" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="37">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="successful" details="" size="4139" time="667" location="/Users/nitin.kalyankar/.ivy2/cache/com.fasterxml.jackson.jaxrs/jackson-jaxrs-json-provider/ivy-2.6.0.xml" searched="true" original-local-location="/Users/nitin.kalyankar/.ivy2/cache/com.fasterxml.jackson.jaxrs/jackson-jaxrs-json-provider/ivy-2.6.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/jaxrs/jackson-jaxrs-json-provider/2.6.0/jackson-jaxrs-json-provider-2.6.0.pom"/>
+				<metadata-artifact status="no" details="" size="11431" time="0" location="/Users/nitin.kalyankar/.ivy2/cache/com.fasterxml.jackson.jaxrs/jackson-jaxrs-json-provider/ivy-2.6.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/jaxrs/jackson-jaxrs-json-provider/2.6.0/jackson-jaxrs-json-provider-2.6.0.pom"/>
 				<caller organisation="org.glassfish.jersey.media" name="jersey-media-json-jackson" conf="compile, runtime" rev="2.5.1" rev-constraint-default="2.5.1" rev-constraint-dynamic="2.5.1" callerrev="2.19"/>
 				<caller organisation="com.spotify" name="docker-client" conf="default, compile, runtime, master" rev="2.6.0" rev-constraint-default="2.6.0" rev-constraint-dynamic="2.6.0" callerrev="3.5.13"/>
 				<artifacts>
-					<artifact name="jackson-jaxrs-json-provider" type="bundle" ext="jar" status="successful" details="" size="16834" time="7214" location="/Users/nitin.kalyankar/.ivy2/cache/com.fasterxml.jackson.jaxrs/jackson-jaxrs-json-provider/bundles/jackson-jaxrs-json-provider-2.6.0.jar">
+					<artifact name="jackson-jaxrs-json-provider" type="bundle" ext="jar" status="no" details="" size="16834" time="0" location="/Users/nitin.kalyankar/.ivy2/cache/com.fasterxml.jackson.jaxrs/jackson-jaxrs-json-provider/bundles/jackson-jaxrs-json-provider-2.6.0.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/jaxrs/jackson-jaxrs-json-provider/2.6.0/jackson-jaxrs-json-provider-2.6.0.jar"/>
 					</artifact>
 				</artifacts>
@@ -1939,25 +1939,25 @@
 			</revision>
 		</module>
 		<module organisation="com.fasterxml.jackson.module" name="jackson-module-jaxb-annotations">
-			<revision name="2.6.0" status="release" pubdate="20150720001738" resolver="public" artresolver="public" homepage="http://wiki.fasterxml.com/JacksonJAXBAnnotations" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="39">
+			<revision name="2.6.0" status="release" pubdate="20150720001738" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://wiki.fasterxml.com/JacksonJAXBAnnotations" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="39">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="successful" details="" size="4321" time="661" location="/Users/nitin.kalyankar/.ivy2/cache/com.fasterxml.jackson.module/jackson-module-jaxb-annotations/ivy-2.6.0.xml" searched="true" original-local-location="/Users/nitin.kalyankar/.ivy2/cache/com.fasterxml.jackson.module/jackson-module-jaxb-annotations/ivy-2.6.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.6.0/jackson-module-jaxb-annotations-2.6.0.pom"/>
+				<metadata-artifact status="no" details="" size="8515" time="0" location="/Users/nitin.kalyankar/.ivy2/cache/com.fasterxml.jackson.module/jackson-module-jaxb-annotations/ivy-2.6.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.6.0/jackson-module-jaxb-annotations-2.6.0.pom"/>
 				<caller organisation="com.fasterxml.jackson.jaxrs" name="jackson-jaxrs-json-provider" conf="compile, runtime" rev="2.6.0" rev-constraint-default="2.6.0" rev-constraint-dynamic="2.6.0" callerrev="2.6.0"/>
 				<artifacts>
-					<artifact name="jackson-module-jaxb-annotations" type="bundle" ext="jar" status="successful" details="" size="32565" time="4013" location="/Users/nitin.kalyankar/.ivy2/cache/com.fasterxml.jackson.module/jackson-module-jaxb-annotations/bundles/jackson-module-jaxb-annotations-2.6.0.jar">
+					<artifact name="jackson-module-jaxb-annotations" type="bundle" ext="jar" status="no" details="" size="32565" time="0" location="/Users/nitin.kalyankar/.ivy2/cache/com.fasterxml.jackson.module/jackson-module-jaxb-annotations/bundles/jackson-module-jaxb-annotations-2.6.0.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.6.0/jackson-module-jaxb-annotations-2.6.0.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="com.fasterxml.jackson.jaxrs" name="jackson-jaxrs-base">
-			<revision name="2.6.0" status="release" pubdate="20150720235908" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="38">
+			<revision name="2.6.0" status="release" pubdate="20150720235908" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="38">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="successful" details="" size="1925" time="641" location="/Users/nitin.kalyankar/.ivy2/cache/com.fasterxml.jackson.jaxrs/jackson-jaxrs-base/ivy-2.6.0.xml" searched="true" original-local-location="/Users/nitin.kalyankar/.ivy2/cache/com.fasterxml.jackson.jaxrs/jackson-jaxrs-base/ivy-2.6.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/jaxrs/jackson-jaxrs-base/2.6.0/jackson-jaxrs-base-2.6.0.pom"/>
+				<metadata-artifact status="no" details="" size="10631" time="0" location="/Users/nitin.kalyankar/.ivy2/cache/com.fasterxml.jackson.jaxrs/jackson-jaxrs-base/ivy-2.6.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/jaxrs/jackson-jaxrs-base/2.6.0/jackson-jaxrs-base-2.6.0.pom"/>
 				<caller organisation="org.glassfish.jersey.media" name="jersey-media-json-jackson" conf="compile, runtime" rev="2.5.1" rev-constraint-default="2.5.1" rev-constraint-dynamic="2.5.1" callerrev="2.19"/>
 				<caller organisation="com.fasterxml.jackson.jaxrs" name="jackson-jaxrs-json-provider" conf="compile, runtime" rev="2.6.0" rev-constraint-default="2.6.0" rev-constraint-dynamic="2.6.0" callerrev="2.6.0"/>
 				<artifacts>
-					<artifact name="jackson-jaxrs-base" type="bundle" ext="jar" status="successful" details="" size="29644" time="5503" location="/Users/nitin.kalyankar/.ivy2/cache/com.fasterxml.jackson.jaxrs/jackson-jaxrs-base/bundles/jackson-jaxrs-base-2.6.0.jar">
+					<artifact name="jackson-jaxrs-base" type="bundle" ext="jar" status="no" details="" size="29644" time="0" location="/Users/nitin.kalyankar/.ivy2/cache/com.fasterxml.jackson.jaxrs/jackson-jaxrs-base/bundles/jackson-jaxrs-base-2.6.0.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/jaxrs/jackson-jaxrs-base/2.6.0/jackson-jaxrs-base-2.6.0.jar"/>
 					</artifact>
 				</artifacts>
