@@ -59,8 +59,8 @@
       <file leaf-file-name="jenkinsfile" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/jenkinsfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
-              <caret line="24" column="74" lean-forward="true" selection-start-line="24" selection-start-column="74" selection-end-line="24" selection-end-column="74" />
+            <state relative-caret-position="241">
+              <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -718,8 +718,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/jenkinsfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="24" column="74" lean-forward="true" selection-start-line="24" selection-start-column="74" selection-end-line="24" selection-end-column="74" />
+        <state relative-caret-position="241">
+          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
         </state>
       </provider>
     </entry>
